@@ -1149,5 +1149,23 @@ a:focus {
   }
 }
 
+@media (max-width: 576px) {
+  .mobile-heading-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .mobile-heading-center h2 {
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .about_section .row {
+    flex-direction: column-reverse;
+  }
+}
+
 
 /*# sourceMappingURL=style.css.map */
