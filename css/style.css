@@ -989,14 +989,14 @@ a:focus {
     padding-top: 160px !important;
   }
 
-  /* Fix: Make slider images zoom/full height */
+  /* Fix: Make slider images full screen and zoom nicely */
   .slider_section .img-box img {
     width: 100%;
     height: 100vh;
     object-fit: cover;
   }
 
-  /* Fix: Move slider arrows up to center */
+  /* Fix: Move slider arrows higher and center vertically */
   .slider_section .carousel-control-prev,
   .slider_section .carousel-control-next {
     top: 45% !important;
@@ -1006,25 +1006,31 @@ a:focus {
     height: 40px;
   }
 
+  /* Fix: Reduce and center the title text */
   .slider_section .detail-box h1 {
     font-size: 22px !important;
     text-align: center;
     line-height: 1.3;
+    margin-bottom: 10px;
   }
 
   .slider_section .detail-box p {
     text-align: center;
     font-size: 14px !important;
     line-height: 1.6;
+    margin-bottom: 10px;
   }
 
-  .slider_section .inner_detail-box {
+  /* Fix: Center all text inside the container */
+  .slider_section .detail-box .inner_detail-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    padding: 20px;
   }
-  
+
   /* Fix: Reduce gap above mission section */
   .mission_vision_section {
     padding-top: 10px !important;
