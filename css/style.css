@@ -421,6 +421,20 @@ a:focus {
   color: #4b1511;
 }
 
+/* Reduce bottom space in About section and top space in Mission section (for all screen sizes) */
+.about_section {
+  padding-bottom: 40px !important;
+}
+
+.about_section .img-box {
+  margin-bottom: 0 !important;
+}
+
+.mission_vision_section {
+  padding-top: 30px !important;
+  margin-top: 0 !important;
+}
+
 .gallery_section {
   background-color: #f9f8f7;
 }
