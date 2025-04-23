@@ -1017,13 +1017,7 @@ a:focus {
     object-fit: cover;
   }
 
-  /* Move slider arrows up */
-  .slider_section .carousel-control-prev,
-  .slider_section .carousel-control-next {
-    top: 90%;
-  }
-
-  /* Align call row in info section */
+   /* Align call row in info section */
       .info_section .info_contact div {
       display: flex;
       align-items: center;
@@ -1064,7 +1058,7 @@ a:focus {
 }
 
 /* Slider Text fit better */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .slider_section .detail-box .inner_detail-box {
     padding: 25px 15px;
     text-align: center;
@@ -1072,7 +1066,7 @@ a:focus {
 
   .slider_section .carousel-control-prev,
   .slider_section .carousel-control-next {
-    top: 50%;
+    top: 70%;
     transform: translateY(-50%);
     bottom: auto;
   }
