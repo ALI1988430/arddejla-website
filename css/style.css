@@ -1020,7 +1020,7 @@ a:focus {
   /* Move slider arrows up */
   .slider_section .carousel-control-prev,
   .slider_section .carousel-control-next {
-    top: 70%;
+    top: 90%;
   }
 
   /* Align call row in info section */
