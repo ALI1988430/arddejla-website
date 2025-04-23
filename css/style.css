@@ -980,111 +980,90 @@ a:focus {
 }
 
 /* === MOBILE IMPROVEMENTS === */
+
+/* === FINAL MOBILE FIXES FOR IPHONE & RESPONSIVENESS === */
 @media (max-width: 576px) {
 
-  .slider_section .detail-box .inner_detail-box {
-    padding: 25px 15px;
-    text-align: center;
+  /* Fix: Push text down from logo in slider */
+  .slider_section {
+    padding-top: 160px !important;
   }
 
-  .slider_section .carousel-control-prev,
-  .slider_section .carousel-control-next {
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: auto;
-  }
-
-  .slider_section h1 {
-    font-size: 28px;
-    line-height: 1.2;
-  }
-
-  .slider_section p {
-    font-size: 16px;
-  }
-
-  .slider_section .carousel-control-prev {
-    left: 10px;
-  }
-
-  .slider_section .carousel-control-next {
-    right: 10px;
-  }
-  /* Slider image should fit better */
+  /* Fix: Make slider images zoom/full height */
   .slider_section .img-box img {
-    width: 50%;
-    height: auto;
+    width: 100%;
+    height: 100vh;
     object-fit: cover;
   }
 
-   /* Align call row in info section */
-      .info_section .info_contact div {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      gap: 6px;
-      flex-wrap: nowrap;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-  
-    .info_section .info_contact i {
-      font-size: 16px;
-      min-width: 20px;
-      margin-right: 4px;
-    }
-  
-    .info_section .info_contact span {
-      font-size: 14px;
-      white-space: nowrap;
-    }
-
-  /* Footer: stack and center-align */
-  .footer_section .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-  }
-
-  .footer_section p {
-    font-size: 14px;
-    line-height: 1.6;
-    word-break: break-word;
-    margin: 4px 0;
-  }
-}
-
-/* Slider Text fit better */
-
-@media (max-width: 576px) {
-  .slider_section {
-    padding-top: 140px; /* Increase space from logo */
-  }
-
-  .slider_section .img-box img {
-    width: 100%;
-    height: 350px;  /* Adjust as needed */
-    object-fit: cover; /* Zooms image */
-  }
-
+  /* Fix: Move slider arrows up to center */
   .slider_section .carousel-control-prev,
   .slider_section .carousel-control-next {
-    top: 55%;  /* Move slider arrows up */
+    top: 45% !important;
+    transform: translateY(-50%);
+    bottom: auto;
+    width: 40px;
+    height: 40px;
   }
 
+  /* Fix: Reduce gap above mission section */
   .mission_vision_section {
     padding-top: 10px !important;
     margin-top: 0 !important;
   }
 
-  .about_section .img-box {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-  }  
-  
+  .mission_vision_section .row {
+    margin-top: 0 !important;
+  }
+
+  /* Fix: Align call row in info section */
+  .info_section .info_contact div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+  }
+
+  .info_section .info_contact i {
+    font-size: 16px;
+    min-width: 20px;
+    margin-right: 4px;
+  }
+
+  .info_section .info_contact span {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  /* Fix: Mobile footer layout and text alignment */
+  .footer_section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 10px !important;
+    gap: 6px;
+  }
+
+  .footer_section p {
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0 !important;
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  .footer_section p a {
+    font-size: 13px;
+    display: inline-block;
+    margin: 2px 6px;
+  }
 }
 
 
