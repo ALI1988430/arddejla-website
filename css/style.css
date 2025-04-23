@@ -1169,5 +1169,9 @@ a:focus {
   }
 }
 
+.mission_vision_section {
+  padding-top: 10px; /* or any smaller value */
+}
+
 
 /*# sourceMappingURL=style.css.map */
