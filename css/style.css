@@ -982,9 +982,37 @@ a:focus {
 /* === MOBILE IMPROVEMENTS === */
 @media (max-width: 576px) {
 
+  .slider_section .detail-box .inner_detail-box {
+    padding: 25px 15px;
+    text-align: center;
+  }
+
+  .slider_section .carousel-control-prev,
+  .slider_section .carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+  }
+
+  .slider_section h1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .slider_section p {
+    font-size: 16px;
+  }
+
+  .slider_section .carousel-control-prev {
+    left: 10px;
+  }
+
+  .slider_section .carousel-control-next {
+    right: 10px;
+  }
   /* Slider image should fit better */
   .slider_section .img-box img {
-    width: 100%;
+    width: 75%;
     height: auto;
     object-fit: cover;
   }
@@ -992,7 +1020,7 @@ a:focus {
   /* Move slider arrows up */
   .slider_section .carousel-control-prev,
   .slider_section .carousel-control-next {
-    top: 60%;
+    top: 50%;
   }
 
   /* Align call row in info section */
@@ -1035,7 +1063,8 @@ a:focus {
   }
 }
 
-@media (max-width: 576px) {
+/* Slider Text fit better */
+@media (max-width: 768px) {
   .slider_section .detail-box .inner_detail-box {
     padding: 25px 15px;
     text-align: center;
@@ -1065,5 +1094,6 @@ a:focus {
     right: 10px;
   }
 }
+
 
 /*# sourceMappingURL=style.css.map */
