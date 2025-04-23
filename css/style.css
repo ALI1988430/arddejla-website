@@ -1076,8 +1076,14 @@ a:focus {
   }
 
   .mission_vision_section {
-    padding-top: 15px; /* or even lower */
+    padding-top: 10px !important;
+    margin-top: 0 !important;
   }
+
+  .about_section .img-box {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }  
   
 }
 
