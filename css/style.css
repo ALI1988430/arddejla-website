@@ -423,7 +423,7 @@ a:focus {
 
 /* Reduce bottom space in About section and top space in Mission section (for all screen sizes) */
 .about_section {
-  padding-bottom: 40px !important;
+  padding-bottom: 20px !important;
 }
 
 .about_section .img-box {
@@ -431,7 +431,7 @@ a:focus {
 }
 
 .mission_vision_section {
-  padding-top: 30px !important;
+  padding-top: 20px !important;
   margin-top: 0 !important;
 }
 
