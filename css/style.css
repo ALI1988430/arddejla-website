@@ -1066,9 +1066,11 @@ a:focus {
 
   .slider_section .carousel-control-prev,
   .slider_section .carousel-control-next {
-    top: 70%;
+    top: 50% !important;  /* Push them higher */
     transform: translateY(-50%);
     bottom: auto;
+    width: 40px;
+    height: 40px;
   }
 
   .slider_section h1 {
@@ -1081,11 +1083,11 @@ a:focus {
   }
 
   .slider_section .carousel-control-prev {
-    left: 20px;
+    left: 10px;
   }
 
   .slider_section .carousel-control-next {
-    right: 20px;
+    right: 10px;
   }
 }
 
