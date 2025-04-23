@@ -999,7 +999,7 @@ a:focus {
   /* Fix: Move slider arrows higher and center vertically */
   .slider_section .carousel-control-prev,
   .slider_section .carousel-control-next {
-    top: 45% !important;
+    top: 55% !important;
     transform: translateY(-50%);
     bottom: auto;
     width: 40px;
