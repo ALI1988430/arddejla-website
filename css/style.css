@@ -1012,7 +1012,7 @@ a:focus {
   }
   /* Slider image should fit better */
   .slider_section .img-box img {
-    width: 75%;
+    width: 50%;
     height: auto;
     object-fit: cover;
   }
@@ -1020,7 +1020,7 @@ a:focus {
   /* Move slider arrows up */
   .slider_section .carousel-control-prev,
   .slider_section .carousel-control-next {
-    top: 50%;
+    top: 70%;
   }
 
   /* Align call row in info section */
